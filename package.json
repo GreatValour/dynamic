@@ -1,0 +1,39 @@
+{
+  "name": "dynamic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^2.1.2",
+    "fizzy-ui-utils": "^3.0.0",
+    "flickity": "^3.0.0",
+    "get-size": "^3.0.0",
+    "imagesloaded": "^5.0.0",
+    "jquery": "^3.7.1",
+    "unidragger": "^3.0.1",
+    "unipointer": "^2.4.0"
+  }
+}
+{
+  "parcel": {
+    "ignore": [
+      "**/*.json"
+    ]
+  }
+}
+{
+  "extends": "@parcel/config-default",
+  "transforms": {
+    "*.png": ["file"]
+  }
+}
